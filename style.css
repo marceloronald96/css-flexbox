@@ -8,7 +8,37 @@
     text-align: center;
 }
 
-.parent.box {
+.parent-box {
     display: flex;
+    background-color: bisque;
+    padding: 30px 20px 20px 20px; /* shorthand para: padding-top,padding-right, padding-bottom, padding-left*/
     
+
 }
+
+.parent-box > p {
+    position: absolute;
+    margin-top: -30px;
+    left: 25px;
+}
+
+.parent-box div:nth-child(2).child-box{
+    background-color: beige;
+}
+
+.parent-box div:nth-child(3).child-box{
+    background-color: gray;
+}
+
+.parent-box div:nth-child(4).child-box{
+    background-color: yellowgreen;
+}
+
+#display-flex .parent-box{
+
+    display: flex;
+    display: flex;
+    background-color: red;
+}
+
+
