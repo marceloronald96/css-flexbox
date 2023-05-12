@@ -6,6 +6,7 @@
     width: 100px;
     height: 100px;
     text-align: center;
+    border-radius: 15px;
 }
 
 .parent-box {
@@ -37,8 +38,23 @@
 #display-flex .parent-box{
 
     display: flex;
-    display: flex;
-    background-color: red;
+    background-color: rgb(133, 99, 99);
+}
+
+#jc-center .parent-box {
+    justify-content: center;
+}
+
+#space-around .parent-box{
+    justify-content: space-around;
+}
+
+#space-between .parent-box{
+    justify-content: space-between;
+}
+
+#space-evenly .parent-box{
+    justify-content: space-evenly;
 }
 
 
