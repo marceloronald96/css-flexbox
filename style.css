@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    background-color: bisque;
+    font-family: 'Bebas Neue'; 
+}
+
+.page-title {
+    
+    text-align: center;
+
+}
+
+.sub-title{
+    text-align: center;
+    
+}
 .child-box {
     /*border-color: black;
     border-style: solid;
@@ -7,6 +24,7 @@
     height: 100px;
     text-align: center;
     border-radius: 15px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .parent-box {
@@ -38,7 +56,7 @@
 #display-flex .parent-box{
 
     display: flex;
-    background-color: rgb(133, 99, 99);
+    background-color: rgb(99, 181, 206);
 }
 
 #jc-center .parent-box {
@@ -57,4 +75,7 @@
     justify-content: space-evenly;
 }
 
+#flex-direction .parent-box{
+    flex-direction: column-reverse;
+}
 
